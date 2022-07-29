@@ -1,4 +1,4 @@
-# iOS ReplayKit Extension Frame Sharing
+# iOS ReplayKit Screen Share Broadcast Extension Frame Sharing
 iOS app to receive CMSampleBuffers from ScreenShare Broadcast extension to UI and ability to pass messages from Broadcast Extension to the host app and vice versa.
 
 We all know that iOS apps are sandboxed which means data cant be shared between 2 apps/targets directly. If we need to implement a screen sharing logic on a pre existing app it can be hard to get the screen frames to the app from broadcast extension as it runs on its own sandboxed environment. 
